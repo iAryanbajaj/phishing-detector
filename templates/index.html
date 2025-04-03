@@ -10,8 +10,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="static/assets/img/newlogo.jpg" rel="icon">
-  <link href="static/assets/img/newlogo.jpg" rel="apple-touch-icon">
+  <link href="static/assets/img/newlogo.jpeg" rel="icon">
+  <link href="static/assets/img/newlogo.jpeg" rel="apple-touch-icon">
 
   <!-- Vendor CSS Files -->
   <link href="static/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -32,38 +32,19 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
       
-      <h1 class="logo mr-auto"><a href="{{ url_for('home') }}">PhishDetector</a></h1>
+      <h1 class="logo mr-auto"><a href="{{ url_for('home') }}">Anti Phish Guard</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
-      <a href="{{ url_for('home') }}" class="logo mr-auto"><img src="static/assets/img/newlogo.jpg" alt="" class="img-fluid"></a>
+     
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li class="active"><a href="{{ url_for('home') }}">Home</a></li>
           <li><a onclick="scrolldiv()">About</a></li>
           <li><a href="{{ url_for('usecases') }}" target="_blank" rel="no-openner no-referrer">Usecases</a></li>
-          <li class="drop-down"><a href="{{ url_for('home') }}">Help</a>
-            <ul>
-              <li class="drop-down"><a href="#">Report Phishing Cases</a>
-                <ul>
-                  <li><a href="https://safebrowsing.google.com/safebrowsing/report_phish/?hl=en" target="_blank">Google Safe Browsing</a></li>
-                  <li><a href="https://support.google.com/websearch/answer/106318" target="_blank">Google Support</a></li>
-                </ul>
-              </li>              
-              <li class="drop-down"><a href="#">Take Phishing Quiz</a>
-                <ul>
-                  <li><a href="https://www.phishingbox.com/phishing-iq-test" target="_blank">Phishingbox</a></li>
-                  <li><a href="https://www.intradyn.com/phishing-quiz/" target="_blank">Intradyn</a></li>
-                </ul>
-              </li>
-              <!-- <li><a href="#">For Future Reference</a></li> -->
-            </ul>
-          </li>
-          <!-- <li><a href="#">Future Reference</a></li> -->
-
         </ul>
       </nav><!-- .nav-menu -->
 
-      <a href="static\assets\Phishing Website Identification.pdf" class="get-started-btn scrollto" download="nofallmagaguide">Download Guide <i class='bx bxs-download'></i></a>
+     
 
     </div>
   </header><!-- End Header -->
@@ -92,7 +73,7 @@
           {% endif %}
       </p>
       </form> 
-      <img src="static\assets\img\Phishing.gif" class="img-fluid hero-img" alt="" data-aos="zoom-in" data-aos-delay="150"><br><br><br>
+      <img src="static\assets\img\Phishing.mp4" class="img-fluid hero-img" alt="" data-aos="zoom-in" data-aos-delay="150"><br><br><br>
     </div>
     <script>
         
@@ -219,7 +200,14 @@
                     </p>                
                     
                     <h3>About Us</h3>
-                    <p>This Project is done by Final Year Students of Computer Science and Engineering at G Pulla Reddy Engineering College<br><br><h5 style="color:white;"><b>K Asrith<br>B Hemanth<br>B Lingesh<br><br><h6>Guided By</h6><h5>Sri M Anand</h5></b></p></p>
+                    <p style="text-align:center; color:white; font-family: Arial, sans-serif;">
+                      Project is done by Final Year Students of B.Sc. Cyber Security at Chandigarh Group of Colleges, Mohali
+                      <br>
+                      <b>Aryan ,</b>
+                      <b>Yashna</b>
+                      <br>
+                    </p>
+                    
               </div>
       
             </div>
@@ -228,22 +216,11 @@
 
 
   </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container d-md-flex py-4">
-
-      <div class="text-center text-md-center">
-        <div class="copyright">
-          <img src="static/assets/img/google.png" alt="">
-          <a href="https://phishingquiz.withgoogle.com/" target="_blank" class="get-started-btn scrollto">Take a Phishing Test by GOOGLE</a> <br>
-          <hr/> 
-		  <p style="padding-top: 8px; font-weight: 600;"><a style="text-decorations:none; color:inherit;" href="https://github.com/asrith-reddy" >Final Year Project &copy; 2024.All Rights Reserved</a></p><a href="https://github.com/asrith-reddy/Phishing-detector" ><button style="font-size:15px" class="button3">Source Code <i class="fa fa-github"></i></button></a>
-        </div>
-      </div>
-    </div>
-
-  </footer><!-- End Footer -->
+<!-- ======= Footer ======= -->
+  <footer>
+    &copy; 2025 | Created with <span class="heart">❤</span> by Aryan
+</footer>
+<!-- End Footer -->
 
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
   <!-- <div id="preloader"></div> -->
